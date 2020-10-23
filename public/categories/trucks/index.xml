@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Trucks on Proto&#39;s workshop</title>
+    <link>https://workshop.khlebko.com/categories/trucks/</link>
+    <description>Recent content in Trucks on Proto&#39;s workshop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-RU</language>
+    <copyright>Pavel Khlebko 2018</copyright>
+    <lastBuildDate>Sun, 27 Sep 2015 20:00:00 +0300</lastBuildDate>
+    
+	<atom:link href="https://workshop.khlebko.com/categories/trucks/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Гоночный тягач</title>
+      <link>https://workshop.khlebko.com/blog/2015-09-27-yellow-race-truck/</link>
+      <pubDate>Sun, 27 Sep 2015 20:00:00 +0300</pubDate>
+      
+      <guid>https://workshop.khlebko.com/blog/2015-09-27-yellow-race-truck/</guid>
+      <description>&lt;p&gt;Дистанционно управляемый, моторизированный гоночный грузовик из LEGO Technic.&lt;/p&gt;
+
+&lt;p&gt;На постройку этой модели меня вдохновили грузовики выпускаемые в серии LEGO Technic, в особенности набор 42024.&lt;/p&gt;
+
+&lt;p&gt;Грузовик строился для участия в гонках по ровной трассе в помещении. К сожалению мероприятие так и не состоялось.
+
+Шасси модели представляет собой доработанное шасси пользователя AmbiDexter с форума Doublebrick.ru.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Lime Crawler</title>
+      <link>https://workshop.khlebko.com/blog/2013-08-13-lime-crawler/</link>
+      <pubDate>Tue, 13 Aug 2013 20:00:00 +0300</pubDate>
+      
+      <guid>https://workshop.khlebko.com/blog/2013-08-13-lime-crawler/</guid>
+      <description>&lt;p&gt;Полноприводная модель краулера (rock crawler) для участия в Lego Truck Trial — соревнованиях на проходимость.&lt;/p&gt;
+
+&lt;p&gt;Краулер (от crawl — ползать) — сильно модифицированный автомобиль или багги для езды по очень сложному бездорожью (валуны, предгорья, скалы, горные тропы). Обычно краулеры имеют полный привод с блокируемыми дифференциалами, специальные шины для лучшего сцепления, модифицированную подвеску с очень большими ходами, портальные мосты и рулевое управление на всех колесах.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Large on Proto&#39;s workshop</title>
+    <link>https://workshop.khlebko.com/tags/large/</link>
+    <description>Recent content in Large on Proto&#39;s workshop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-RU</language>
+    <copyright>Pavel Khlebko 2018</copyright>
+    <lastBuildDate>Sun, 08 Nov 2015 20:00:00 +0300</lastBuildDate>
+    
+	<atom:link href="https://workshop.khlebko.com/tags/large/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Краулер Morbo</title>
+      <link>https://workshop.khlebko.com/blog/2015-11-08-morbo/</link>
+      <pubDate>Sun, 08 Nov 2015 20:00:00 +0300</pubDate>
+      
+      <guid>https://workshop.khlebko.com/blog/2015-11-08-morbo/</guid>
+      <description>&lt;p&gt;Ключевой особенностью модели является механизм регулировки высоты подвески. Даная регулировка позволяет избегать опрокидывания на участках трассы где не нужен большой дорожный просвет и желателен низкий цэнтр тяжести. Механизм в действии выглядит довольно зрелищно, однако я пришел к выводу, что хорошо настроенная подвеска работает нехуже чем данный агрегат, но при этом не требует отдельного мотора и времени на управление ею. По этому ни в одной из следующих моделей данный механизм не применяется.&lt;/p&gt;
+
+&lt;p&gt;Модель бы построена для участия в Аутдор покатушках в Минске. После она была модифицирована для участия в Джип Триале на фестивале Мегабрикс в 2015 году. Заняла третье место в категории триал.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Краулер Dr. Zoid</title>
+      <link>https://workshop.khlebko.com/blog/2015-10-25-dr-zoid/</link>
+      <pubDate>Sun, 25 Oct 2015 20:00:00 +0300</pubDate>
+      
+      <guid>https://workshop.khlebko.com/blog/2015-10-25-dr-zoid/</guid>
+      <description>&lt;p&gt;Модель была попыткой создать простой и легкий краулер без использования редких деталей и сложных конструкций вроде сборных портальных хабов.&lt;/p&gt;
+
+&lt;p&gt;На мой взгляд в данном случае сервомотор не всегда обеспечивает достаточное усилие для поворота машины такого раземера. Я попробую улучшить это в следующих моделях.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Lime Crawler</title>
+      <link>https://workshop.khlebko.com/blog/2013-08-13-lime-crawler/</link>
+      <pubDate>Tue, 13 Aug 2013 20:00:00 +0300</pubDate>
+      
+      <guid>https://workshop.khlebko.com/blog/2013-08-13-lime-crawler/</guid>
+      <description>&lt;p&gt;Полноприводная модель краулера (rock crawler) для участия в Lego Truck Trial — соревнованиях на проходимость.&lt;/p&gt;
+
+&lt;p&gt;Краулер (от crawl — ползать) — сильно модифицированный автомобиль или багги для езды по очень сложному бездорожью (валуны, предгорья, скалы, горные тропы). Обычно краулеры имеют полный привод с блокируемыми дифференциалами, специальные шины для лучшего сцепления, модифицированную подвеску с очень большими ходами, портальные мосты и рулевое управление на всех колесах.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

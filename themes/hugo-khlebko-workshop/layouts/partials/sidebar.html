@@ -1,0 +1,21 @@
+<div class="wrapper">
+  <section id="fresh" class="fresh">
+    <h4>Свежие записи</h4>
+    <ul>
+      {{ range first 5 .Site.Pages }}
+      <li><a href="{{ .Permalink }}" class="list-group-item">{{ .Title }}</a></li>
+      {{ end }}
+    </ul>
+  </section>
+
+  {{ range $key, $value := .Site.Taxonomies }}
+  <section id="{{$key}}" class="{{$key}}">
+    <h4>{{ $key | humanize }}</h4>
+    <ul>
+      {{ range first 10 $value.ByCount }}
+      <li><a href="{{ $.Site.BaseURL}}{{ $key }}/{{ .Name | urlize }}" class="list-group-item">{{ .Name | humanize }}</a></li>
+      {{ end }}
+    </ul>
+  </section>
+  {{ end }}
+</div>

@@ -1,0 +1,50 @@
+baseurl = "https://workshop.khlebko.com/"
+languageCode = "ru-RU"
+title = "Proto's workshop"
+googleAnalytics = "UA-112761730-1"
+theme = "hugo-khlebko-workshop"
+paginate = 5
+rssLimit = 5
+copyright = "Pavel Khlebko 2018"
+
+[author]
+  name = "Pavel Khlebko"
+  email = "pavel@khlebko.com"
+
+[permalinks]
+  post = "/blog/:year-:month-:day-:slug"
+
+[params]
+  author = "Pavel Khlebko"
+  email = "pavel@khlebko.com"
+  dateformat = "15:04 02.01.2006"
+  description = "Personal blog about Lego Technic creations"
+
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = []
+  custom_js  = []
+
+# Main Menu
+
+[[menu.main]]
+  name = "Фото"
+  identifier = "googlephotos"
+  weight = 100
+  url = "https://plus.google.com/photos/+PavelKlebko/albums"
+[[menu.main]]
+  name = "Видео"
+  identifier = "youtube"
+  weight = 200
+  url = "https://www.youtube.com/channel/UCxoIE_a9MdFCgVm7KbZbTYg"
+[[menu.main]]
+  name = "Об авторе"
+  weight = 300
+  identifier = "about"
+  url = "/about/"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[blackfriday]
+  plainIDAnchors = false

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="author" content="{{ .Site.Author }}" />
+    {{ if .Site.Params.description }}<meta name="description" content="{{ .Site.Params.description }}">{{ end }}
+    <link rel="shortcut icon" type="image/png" href="{{ .Site.BaseURL }}img/favicon.png"/>
+    <link rel="apple-touch-icon" type="image/png" href="{{ .Site.BaseURL }}img/favicon.png"/>
+    <title>{{ block "title" . }}{{ end }}{{ .Site.Title }}</title>
+    {{ .Hugo.Generator }}
+    <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/main.css" />
+    {{ block "page-styles" . }}{{ end }}
+    {{ range .Site.Params.custom_css }}
+    <link rel="stylesheet" href="{{ $.Site.BaseURL}}{{ . }}">
+    {{ end }}
+    {{ if .RSSLink }}
+    <link rel="alternate" type="application/rss+xml" href="{{ .RSSLink }}" />
+    {{ end }}
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Перейти к содержимому</a>
+
+    <header role="banner">
+      <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+      {{ if .Site.Menus.main }}
+      <ul class="menu" role="navigation">
+        {{ range sort .Site.Menus.main }}
+        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+        {{ end }}
+      </ul>
+      {{ end }}
+    </header>
+
+    <main id="main" role="main">
+      <div class="content">
+        {{ block "main" . }}{{ end }}
+      </div>
+    </main>
+
+    <aside role="complementary">
+      {{ partial "sidebar.html" . }}
+    </aside>
+
+    <footer role="contentinfo">
+      <div class="wrapper">
+        <div><a rel="alternate" type="application/rss+xml" href="{{ .RSSLink }}">RSS</a></div>
+        <div class="copyright">&copy; {{ now.Format "2006"}} <a href="mailto:{{.Site.Params.email}}">{{.Site.Params.author}}</a></div>
+      </div>
+    </footer>
+
+    {{ if ne (getenv "HUGO_ENV") "DEV" }}
+    {{ template "_internal/google_analytics.html" . }}
+    {{ end }}
+    {{ partial "js" . }}
+    {{ partial "ya-counter" . }}
+  </body>
+</html>
+

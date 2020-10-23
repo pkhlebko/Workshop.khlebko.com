@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Extremely Fast on Proto&#39;s workshop</title>
+    <link>https://workshop.khlebko.com/tags/extremely-fast/</link>
+    <description>Recent content in Extremely Fast on Proto&#39;s workshop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-RU</language>
+    <copyright>Pavel Khlebko 2018</copyright>
+    <lastBuildDate>Tue, 08 Nov 2016 19:00:00 +0300</lastBuildDate>
+    
+	<atom:link href="https://workshop.khlebko.com/tags/extremely-fast/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mini Speed Car</title>
+      <link>https://workshop.khlebko.com/blog/2016-11-08-mini-speed-car/</link>
+      <pubDate>Tue, 08 Nov 2016 19:00:00 +0300</pubDate>
+      
+      <guid>https://workshop.khlebko.com/blog/2016-11-08-mini-speed-car/</guid>
+      <description>&lt;p&gt;Модель для гонок по ровной поверхности внутри помещений. Без кузова она имела определенные склонности к дрифту. С кузовом дрифтует она похуже.&lt;/p&gt;
+
+&lt;p&gt;Машинка очень небольшая по размеру. Внешность ее слегка навеяна миникупером, но доскональное копирование не было целью.&lt;/p&gt;
+
+&lt;p&gt;Для лучшего сцепления с трассой и уменьшения радиуса поворота, передние колеса закреплены на качающейся балке.&lt;/p&gt;
+
+&lt;p&gt;Построена к &lt;a rel=&#34;noopener&#34; href=&#34;https://vk.com/topic-40661157_36263196&#34; target=&#34;_blank&#34;&gt;заезду пузотерок 2016&lt;/a&gt; на фестивале в музее Мегабрикс.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Lime Buggy</title>
+      <link>https://workshop.khlebko.com/blog/2015-09-27-lime-buggy/</link>
+      <pubDate>Sun, 27 Sep 2015 20:00:00 +0300</pubDate>
+      
+      <guid>https://workshop.khlebko.com/blog/2015-09-27-lime-buggy/</guid>
+      <description>&lt;p&gt;Дистанционно управляемый, моторизированный и очень быстрый багги из LEGO Technic для гонок по пересеченной местности.&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/EHCGIXv64Z8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34; title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

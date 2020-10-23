@@ -1,0 +1,26 @@
+{{ define "title" }}{{ if not .IsHome }}{{ .Title }} - {{ end }}{{ end }}
+{{ define "page-styles"}}<link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/lightgallery.min.css" />{{end}}
+
+{{ define "main" }}
+<div class="articles">
+  <article>
+    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+    {{ with .Params.thumbnail }}
+    <div class="post-thumbnail" style="background-image: url({{ $.Site.BaseURL }}{{ . }});"></div>
+    <a href="{{ $.Permalink }}" class="thumb" title="{{ $.Title }}" ></a>
+    {{ end }}
+    {{ .Content }}
+            
+    <div class="post-meta">
+        <span><time datetime="{{ .Lastmod.Format "2006-01-02T15:04" }}">{{ .Lastmod.Format ( .Site.Params.dateformat | default "15:04 02.01.2006") }}</time></span> &nbsp;
+        <span>Тэги </span><ul class="tags">
+          {{ range .Params.tags }}
+            <li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> </li>
+          {{ end }}
+        </ul>
+    </div>
+  </article>
+</div>
+
+{{ end }}
+

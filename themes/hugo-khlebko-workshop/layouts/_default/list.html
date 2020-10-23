@@ -1,0 +1,15 @@
+{{ define "title" }}{{ if not .IsHome }}{{ .Title }} - {{ end }}{{ end }}
+
+{{ define "main" }}
+  {{ if not .IsHome }}
+  <h2>{{ .Title }}</h2>
+  {{ end }}
+
+  <div class="articles">
+    {{ range (.Paginate (where .Data.Pages "Section" "post")).Pages }}
+    {{ .Render "article" }}
+    {{ end }}
+  </div>
+
+  {{ partial "pagination.html" . }}
+{{ end }}
