@@ -1,0 +1,21 @@
+{
+  "name": "workshopkhlebkocom",
+  "description": "My LEGO creations workshop",
+  "author": "Pavel Khlebko",
+  "homepage": "http://workshop.khlebko.com",
+  "repository": "github:pkhlebko/Workshop.khlebko.com",
+  "license": "MIT",
+  "version": "2.0.0",
+  "keywords": [
+    "workshop"
+  ],
+  "scripts": {
+    "start": "hugo.exe server",
+    "build": "hugo.exe"
+  },
+  "private": false,
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
